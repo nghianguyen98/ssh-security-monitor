@@ -116,8 +116,3 @@ Remove script:
 ```bash
 sudo rm /usr/local/bin/ssh-login-alert.sh
 ```
-
----
-
-## 📜 License
-MIT License
