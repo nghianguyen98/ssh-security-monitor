@@ -1,3 +1,6 @@
+# --- Only run on login (prevent logout alerts) ---
+[ "$PAM_TYPE" != "open_session" ] && exit 0
+
 # ====== TELEGRAM CONFIG ======
 BOT_TOKEN="PUT_YOUR_BOT_TOKEN"
 CHAT_ID="PUT_YOUR_CHAT_ID"
