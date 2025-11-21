@@ -1,4 +1,4 @@
-# --- Only run on login (prevent logout alerts) ---
+# ====== Only run on login (prevent logout alerts) ======
 [ "$PAM_TYPE" != "open_session" ] && exit 0
 
 # ====== TELEGRAM CONFIG ======
